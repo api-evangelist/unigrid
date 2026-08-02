@@ -1,0 +1,34 @@
+# UNIGRID
+
+> UNIGRID (UNIGRID Inc., unigridbattery.com) is a San Diego-based sodium-ion
+> battery company founded in 2021 out of UC San Diego Ph.D. research by
+> Dr. Darren H. S. Tan and Dr. Erik A. Wu. Its sodium chromium oxide (NCO)
+> chemistry and alloy anode technology deliver fire-safe, fully passive
+> batteries rated for 30,000+ cycles and -40°C to 60°C operation, sold as 12V
+> starter batteries (Na+ Fleet), BMS-less rack modules (Na+ Module),
+> residential energy storage (Na+ Casa), and DC rack systems for C&I and data
+> centers (Na+ Cleo). Cells are UN38.3 and UL 9540A certified. Backed by
+> Transition VC, Ritz Venture Capital, Union Square Ventures, and Foothill
+> Ventures ($12M Series A, 2024). UNIGRID publishes no public API or
+> developer program.
+
+## Company
+
+- [Website](https://unigridbattery.com/)
+- [Products](https://unigridbattery.com/products/)
+- [Technology](https://unigridbattery.com/technology/)
+- [News / Press](https://unigridbattery.com/news/)
+- [Team](https://unigridbattery.com/team/)
+- [Contact](https://unigridbattery.com/contact/)
+- [LinkedIn](https://www.linkedin.com/company/unigrid-inc)
+
+## APIs
+
+UNIGRID publishes no public APIs. This profile exists in the API Evangelist
+network as a venture-portfolio company record (backed by Union Square
+Ventures).
+
+## Profile
+
+- [APIs.json profile](https://raw.githubusercontent.com/api-evangelist/unigrid/refs/heads/main/apis.yml)
+- [Domain security probe](https://raw.githubusercontent.com/api-evangelist/unigrid/refs/heads/main/security/unigrid-domain-security.yml)

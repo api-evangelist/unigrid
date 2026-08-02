@@ -1,8 +1,14 @@
 aid: unigrid
 name: Unigrid
-description: Unigrid is a company surfaced as a portfolio company of union-square-ventures and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: 'UNIGRID Inc. is a San Diego-based sodium-ion battery company founded in 2021 out of UC
+  San Diego Ph.D. research by Dr. Darren H. S. Tan and Dr. Erik A. Wu. Its sodium chromium oxide (NCO)
+  chemistry and alloy anode technology deliver fire-safe, fully passive batteries rated for 30,000+
+  cycles and -40C to 60C operation, sold as 12V starter batteries (Na+ Fleet), BMS-less rack modules
+  (Na+ Module), residential energy storage (Na+ Casa), and DC rack systems for commercial, industrial,
+  and data center use (Na+ Cleo). Cells are UN38.3 and UL 9540A certified. Backed by Transition VC,
+  Ritz Venture Capital, Union Square Ventures, and Foothill Ventures via an oversubscribed $12M Series
+  A (2024); shipped its first sodium-ion residential batteries in July 2026. UNIGRID publishes no
+  public API or developer program.'
 url: https://raw.githubusercontent.com/api-evangelist/unigrid/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,11 +16,30 @@ x-backed-by:
 - union-square-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
+image: https://unigridbattery.com/wp-content/uploads/2026/07/Safety.svg
 tags:
 - Company
+- Batteries
+- Sodium-Ion
+- Energy Storage
+- Energy
+- Hardware
+- Data Centers
+- Venture Backed
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,4 +48,19 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://www.unigridbattery.com
+  url: https://unigridbattery.com/
+- type: News
+  url: https://unigridbattery.com/news/
+- type: Contact
+  url: https://unigridbattery.com/contact/
+- type: LinkedIn
+  url: https://www.linkedin.com/company/unigrid-inc
+- type: DomainSecurity
+  url: security/unigrid-domain-security.yml
+- type: LLMsTxt
+  url: llms/unigrid-llms.txt
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 3
+  pass: local-v1
