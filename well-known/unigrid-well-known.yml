@@ -2,20 +2,24 @@ generated: '2026-07-21'
 method: searched
 source: live probes of https://unigridbattery.com/.well-known/*
 host: https://unigridbattery.com
-documents:
-- path: /.well-known/security.txt
-  status: 404
-- path: /.well-known/openid-configuration
-  status: 404
-- path: /.well-known/oauth-authorization-server
-  status: 404
-- path: /.well-known/api-catalog
-  status: 404
-- path: /.well-known/ai-plugin.json
-  status: 404
-- path: /llms.txt
-  status: 404
-notes: No well-known discovery documents are published. Unigrid is a sodium-ion
-  battery hardware manufacturer with no public API or developer program; the
-  website is WordPress (the default wp-json REST endpoint exists but is not a
-  first-party developer API product).
+notes: No well-known discovery documents are published. Unigrid is a sodium-ion battery hardware manufacturer
+  with no public API or developer program; the website is WordPress (the default wp-json REST endpoint
+  exists but is not a first-party developer API product).
+hosts:
+- host: https://unigridbattery.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+x-shape-fix:
+  converted: '2026-08-20'
+  from: documents
+  note: Rewritten into hosts[] -> documents[], the only shape well_known_docs() in score.rb reads. A served
+    .well-known surface recorded in any other shape scores as absent.
