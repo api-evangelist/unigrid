@@ -49,7 +49,7 @@ tags:
 - Energy Storage
 - Energy
 - Hardware
-- Data-Center
+- Data Center
 - Venture Backed
 tags_raw:
 - Company
@@ -60,6 +60,7 @@ tags_raw:
 - Hardware
 - Data Centers
 - Venture Backed
+- Data-Center
 apis: []
 maintainers:
 - FN: Kin Lane
